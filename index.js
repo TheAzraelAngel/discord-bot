@@ -13,7 +13,7 @@ const prefix = "$";
 
 Client.on("ready", () => {
 console.log("bot opérationnel")
-Client.user.setStatus("dnd")
+Client.user.setStatus("online")
 Client.user.setActivity("Visual Studio Code");
 })
 
